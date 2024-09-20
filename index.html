@@ -44,22 +44,24 @@ align-items: center; justify-content: space-around;">
 </div>
 </hgroup>
 <style>
-    .video-background {
-        position: relative;
-        width: 100%;
-        height: 80vh;
-        overflow: hidden;
-    }
-    .video-background video {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transform: translate(-50%, -50%);
-        z-index: -1;
-    }
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 80vh; /* ou o valor que preferir */
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Garante que o vídeo preencha o container sem distorções */
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
     .content {
         position: relative;
         z-index: 1;
@@ -72,11 +74,11 @@ align-items: center; justify-content: space-around;">
 </style>
 </head>
 <body>
-<div class="video-background">
-    <video autoplay loop muted playsinline>
-        <source src="video.mp4" type="video/mp4">
-        Seu navegador não suporta vídeos HTML5.
-    </video>
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="https://static.vecteezy.com/system/resources/previews/030/904/057/mp4/a-tree-in-the-middle-of-a-field-at-sunset-free-video.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
     <div class="content" style="width: 100%; height: 100%;
 display: flex; flex-direction: row; justify-content: space-around; align-items: center;
 ">
