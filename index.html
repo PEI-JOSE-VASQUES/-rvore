@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostração</title>
+<style>
+body{
+height: auto;
+margin: 0px;
+background:black;
+}   
+.titulos{
+font-size: 4vw;
+color: rgb(143, 143, 143);
+} 
+.cor{
+color: white;
+font-size: 4.5vw;
+}
+</style>
+</head>
+<body>
+<section style="width: 100%; height: 100%;">
+<hgroup style="width: 100%; height: auto;  background: url('fundo_titulo.jpg');
+background-size: 50% 100%;
+display: flex; flex-direction:row;
+align-items: center; justify-content: space-around;
+">
+<div style="width: 100%; height: 100%; background: rgba(0, 0, 0, 0.77); display: flex; flex-direction:row;
+align-items: center; justify-content: space-around;">
+<div style="display: flex; flex-direction: column; align-items: center;">
+<img style="margin-bottom: 1px; width: 100px; background: rgba(255, 255, 255, 0.441); border-radius: 20px; margin: 10px;" src="logo.jpg">
+<p style="color: white; margin: 0px;">ASPAB BURI</p>
+</div>
+<div style="display: flex; flex-direction: column; justify-content: space-around; align-items: center;">
+<a class="cor" style="margin: 1px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><i>Mapeamento Arbóreo de Buri</i></a>
+<a style="margin: 1px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: white; font-size: 1.3vw;"><i>Quem ama preserva o meio ambiente e a vida&nbsp; &nbsp; &nbsp; Ambiental Burience🌳</i></a>
+</div>
+<div style="display: flex; flex-direction: column; justify-content: space-around; align-items: center; height: 100px;">
+<a style="font-size: 1.2vw; color: white; border: 1px solid white; border-radius: 5px; padding: 8px;">Políticas de privacidade 📜</a>
+<a style="font-size: 1.2vw; color: white; border: 1px solid white; border-radius: 5px; padding: 8px;">dúvidas sobre o sistema</a>
+</div>
+</div>
+</hgroup>
+<style>
+    .video-background {
+        position: relative;
+        width: 100%;
+        height: 80vh;
+        overflow: hidden;
+    }
+    .video-background video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+    .content {
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+</style>
+</head>
+<body>
+<div class="video-background">
+    <video autoplay loop muted playsinline>
+        <source src="video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos HTML5.
+    </video>
+    <div class="content" style="width: 100%; height: 100%;
+display: flex; flex-direction: row; justify-content: space-around; align-items: center;
+">
+<div style=" width: 30vw; height: auto; 
+margin-left: 5vw;
+border: 1px solid rgba(0, 0, 0, 0.222);
+           background: rgba(255, 255, 255, 0.286);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 5px;
+            min-width: 200px;
+"><p style="margin: 0px;color: rgb(19, 19, 19); font-size: clamp(16px, 2.3vw, 32px);">Somos uma ONG responsável pelo meio ambiente da cidade de Buri, realizando a manutenção dos meios naturais e evitando crimes contra a natureza por meio da conscientização</p></div>
+
+
+
+<style>
+    #image-container {
+        position: relative;
+        width: 500px;
+        height: 300px;
+        overflow: hidden;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+    }
+    .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+    <div id="image-container" style="position: relative; width: 35vw; height: 350px; margin: 5px;">
+        <img src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem 1" class="image active">
+        <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem 2" class="image">
+        <img src="https://images.pexels.com/photos/640809/pexels-photo-640809.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Imagem 3" class="image">    
+    </div>
+    
+
+<script>
+const images = document.querySelectorAll('.image');
+let currentIndex = 0;
+
+function showNextImage() {
+    images[currentIndex].classList.remove('active');
+    currentIndex = (currentIndex + 1) % images.length; 
+    images[currentIndex].classList.add('active');
+}
+
+setInterval(showNextImage, 2000); 
+</script>
+
+
+
+
+</div></div>
+    </div>
+</div>
+<h2 style="color: white; text-align: center; font-size: 4vw; border: 1px solid white;padding: 5px;  border-right: none; border-left: none;">Mapa Arbóreo</h2>
+</section>
+
+
+<div style="width: 100%; display: flex; flex-direction: row; justify-content: space-around;">
+    <a style="color: white; padding: 5px; font-size: 5vw;">Platando🌱</a>
+    <a style="color: white; font-size: 5vw;">Plantado🌲</a>
+</div>
+
+<div style=" display: flex; flex-direction: column; align-items: center; width: 100%; height: 50vw;">
+<div style="border-radius: 10px; background: white; width: 90%; height: 90%;">
+
+
+
+
+    <style>
+        #map {
+          height: 100vh;
+          width: 100%;
+        }
+      </style>
+      </head>
+      <body>
+        <div style="width: 100%; height: 100%; border-radius: 10px;" id="map"></div>
+      
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDayKwEsCiDPu7HrzoM6Al_wG1klaxsoPg&callback=initMap"
+          async defer></script>
+      
+        <script>
+          function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 15.5,
+              center: { lat: -23.8025, lng: -48.5990 }, 
+              
+            });
+      
+            function createMarker(position, emoji, message) {
+              var marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                label: {
+                  text: emoji,
+                  fontSize: '40px',
+                }
+              });
+      
+              var infoWindow = new google.maps.InfoWindow({
+                content: message
+              });
+      
+              marker.addListener('click', function() {
+                infoWindow.open(map, marker);
+              });
+      
+              marker.addListener('mouseover', function() {
+                infoWindow.open(map, marker);
+              });
+      
+              marker.addListener('mouseout', function() {
+                infoWindow.close();
+              });
+            }
+      
+            createMarker({ lat: -23.7975, lng: -48.5926 }, '🌱', 'Platando pé de A');
+            createMarker({ lat: -23.8029, lng: -48.5929 }, '🌲', 'Árvore D plantada dia 00/00/0000');
+            createMarker({ lat: -23.8071, lng: -48.6000 }, '🌲', 'Árvore E plantada dia 00/00/0000');
+            createMarker({ lat: -23.8025, lng: -48.5990 }, '🌱', 'Platando pé de B');
+            createMarker({ lat: -23.7990, lng: -48.6010 }, '🌱', 'Platando pé de C');
+
+        }
+        </script>
+      
+</div>
+</div>
+<footer style="width: 100%; height: 50px; background: gray;">
+<p style="color: white;">ss</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
